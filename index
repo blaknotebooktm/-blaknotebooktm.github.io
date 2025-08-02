@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>blak notebook™</title>
+  <style>
+    html, body {
+      margin: 0;
+      padding: 0;
+      background: black;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+
+  img {
+      width: 100%;
+      height: 90vh;
+      cursor: pointer;
+      image-rendering: pixelated;
+    }
+
+ @media (max-width: 768px) {
+      img {
+        height: auto;
+        width: 90vw;
+      }
+ }
+  </style>
+  <script>
+    setTimeout(() => {
+      window.location.href = "found.html";
+    }, 2500);
+  </script>
+</head>
+<body>
+
+  <img src="index.gif" alt="loading...">
+
+</body>
+</html>
